@@ -51,9 +51,6 @@ Requirements
 Tasks
 -----
 
- Done?\
-Help
-
 #### 0\. Basic annotations - add mandatory
 
 Write a type-annotated function `add` that takes a float `a` and a float `b` as arguments and returns their sum as a float.
@@ -78,10 +75,6 @@ True
 -   Directory: `0x00-python_variable_annotations`
 -   File: `0-add.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 1\. Basic annotations - concat mandatory
 
@@ -110,10 +103,6 @@ True
 -   Directory: `0x00-python_variable_annotations`
 -   File: `1-concat.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 2\. Basic annotations - floor mandatory
 
@@ -146,10 +135,6 @@ floor(3.14) returns 3, which is a <class 'int'>
 -   Directory: `0x00-python_variable_annotations`
 -   File: `2-floor.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 3\. Basic annotations - to string mandatory
 
@@ -178,10 +163,6 @@ to_str(3.14) returns 3.14, which is a <class 'str'>
 -   Directory: `0x00-python_variable_annotations`
 -   File: `3-to_str.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 4\. Define variables mandatory
 
@@ -220,10 +201,6 @@ school is a <class 'str'> with a value of Holberton
 -   Directory: `0x00-python_variable_annotations`
 -   File: `4-define_variables.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 5\. Complex types - list of floats mandatory
 
@@ -254,10 +231,6 @@ sum_list(floats) returns 6.470000000000001 which is a <class 'float'>
 -   Directory: `0x00-python_variable_annotations`
 -   File: `5-sum_list.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 6\. Complex types - mixed list mandatory
 
@@ -288,10 +261,6 @@ sum_mixed_list(mixed) returns 679.13 which is a <class 'float'>
 -   Directory: `0x00-python_variable_annotations`
 -   File: `6-sum_mixed_list.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 7\. Complex types - string and int/float to tuple mandatory
 
@@ -320,10 +289,6 @@ user:~/holbertonschool-web_back_end/0x00-python_variable_annotations$ ./7-main.p
 -   Directory: `0x00-python_variable_annotations`
 -   File: `7-to_kv.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 8\. Complex types - functions mandatory
 
@@ -350,10 +315,6 @@ user:~/holbertonschool-web_back_end/0x00-python_variable_annotations$ ./8-main.p
 -   Directory: `0x00-python_variable_annotations`
 -   File: `8-make_multiplier.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 9\. Let's duck type an iterable object mandatory
 
@@ -384,10 +345,6 @@ vagrant@ubuntu-bionic:~/curriculum-specialization-backend/0x00-Python_variable_a
 -   Directory: `0x00-python_variable_annotations`
 -   File: `9-element_length.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 10\. Duck typing - first element of a sequence #advanced
 
@@ -422,10 +379,6 @@ user:~/curriculum-specialization-backend/0x00-Python_variable_annotations$ ./100
 -   Directory: `0x00-python_variable_annotations`
 -   File: `100-safe_first_element.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 11\. More involved type annotations #advanced
 
@@ -468,10 +421,6 @@ return: typing.Union[typing.Any, ~T]
 -   Directory: `0x00-python_variable_annotations`
 -   File: `101-safely_get_value.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 12\. Type Checking #advanced
 
