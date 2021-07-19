@@ -3,16 +3,6 @@
 
  Specializations - Web Stack programming -- Back-end
 
-* by Emmanuel Turlay, Staff Software Engineer at Cruise*
-
- Ongoing project - started 10-19-2020, must end by 10-20-2020 (in about 7 hours) - you're done with 0% of tasks.
-
- Checker was released at 10-19-2020 12:00 PM
-
- QA review fully automated.
-
- duck typing python type annotations variable annotations
-
 *For this project, students are expected to look at this concept:*
 
 -   *[Advanced Python](https://intranet.hbtn.io/concepts/136)*
@@ -523,7 +513,3 @@ user:~/curriculum-specialization-backend/0x00-Python_variable_annotations$ ./102
 -   GitHub repository: `holbertonschool-web_back_end`
 -   Directory: `0x00-python_variable_annotations`
 -   File: `102-type_checking.py`
-
-Check your code?Get a container
-
-Copyright © 2020 Holberton School. All rights reserved.
