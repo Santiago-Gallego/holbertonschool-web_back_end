@@ -57,8 +57,6 @@ Requirements
 Tasks
 -----
 
- Done?\
-Help
 
 #### 0\. The basics of async mandatory
 
@@ -91,10 +89,7 @@ vagrant@ubuntu-bionic:/vagrant/holberton_development/curriculum-specialization-b
 -   Directory: `0x01-python_async_function`
 -   File: `0-basic_async_syntax.py`
 
-Check your code?Get a container
 
- Done?\
-Help
 
 #### 1\. Let's execute multiple coroutines at the same time with async mandatory
 
@@ -131,10 +126,7 @@ The output for your answers might look a little different and that's okay.
 -   Directory: `0x01-python_async_function`
 -   File: `1-concurrent_coroutines.py`
 
-Check your code?Get a container
 
- Done?\
-Help
 
 #### 2\. Measure the runtime mandatory
 
@@ -166,10 +158,7 @@ vagrant@ubuntu-bionic:/vagrant/holberton_development/curriculum-specialization-b
 -   Directory: `0x01-python_async_function`
 -   File: `2-measure_runtime.py`
 
-Check your code?Get a container
 
- Done?\
-Help
 
 #### 3\. Tasks mandatory
 
@@ -203,10 +192,7 @@ vagrant@ubuntu-bionic:/vagrant/holberton_development/curriculum-specialization-b
 -   Directory: `0x01-python_async_function`
 -   File: `3-tasks.py`
 
-Check your code?Get a container
 
- Done?\
-Help
 
 #### 4\. Tasks mandatory
 

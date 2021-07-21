@@ -54,8 +54,6 @@ Requirements
 Tasks
 -----
 
- Done?\
-Help
 
 #### 0\. Async Generator mandatory
 
@@ -90,10 +88,6 @@ user@ubuntu-bionic:~/holbertonschool-web_stack_programming/0x02-python_async_com
 -   Directory: `0x02-python_async_comprehension`
 -   File: `0-async_generator.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 1\. Async Comprehensions mandatory
 
@@ -125,10 +119,7 @@ vagrant@ubuntu-bionic:/vagrant/holberton_development/curriculum-specialization-b
 -   Directory: `0x02-python_async_comprehension`
 -   File: `1-async_comprehension.py`
 
-Check your code?Get a container
 
- Done?\
-Help
 
 #### 2\. Run time for four parallel comprehensions mandatory
 
@@ -164,6 +155,4 @@ vagrant@ubuntu-bionic:/vagrant/holberton_development/curriculum-specialization-b
 -   Directory: `0x02-python_async_comprehension`
 -   File: `2-measure_runtime.py`
 
-Check your code?Get a container
 
-Copyright © 2020 Holberton School. All rights reserved.
