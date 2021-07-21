@@ -3,14 +3,6 @@
 
  Specializations - Web Stack programming -- Back-end
 
-* by Emmanuel Turlay, Staff Software Engineer at Cruise*
-
- Ongoing project - started 10-21-2020, must end by 10-22-2020 (in about 5 hours) - you're done with 0% of tasks.
-
- Checker was released at 10-21-2020 12:00 PM
-
- QA review fully automated.
-
  async comprehension async generators python
 
 ![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/ee85b9f67c384e29525b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201022T003020Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8b5ec809a85578954bb3b3bc880c84f1d527e9015661dc6e278ee99b6327cc4f)
