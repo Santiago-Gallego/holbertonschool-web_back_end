@@ -1,20 +1,6 @@
 0x05. Personal data
 ===================
 
- Specializations - Web Stack programming -- Back-end
-
-* by Emmanuel Turlay, Staff Software Engineer at Cruise*
-
- Ongoing project - started 10-30-2020, must end by 11-03-2020 (in 1 day) - you're done with 0% of tasks.
-
- Checker was released at 11-01-2020 12:00 AM
-
- **Manual QA review must be done** (request it when you are done with the project)
-
- QA review fully automated.
-
- database access log filter password encryption personal data personally identifiable information pii python user data protection
-
 ![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/5c48d4f6d4dd8081eb48.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201101%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201101T154343Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=718e89fa8933d5d52aad0052efc43733e218cdd2e3f6735987f07b0a2d756306)
 
 Resources
@@ -58,9 +44,6 @@ Requirements
 Tasks
 -----
 
- Done?\
-Help
-
 #### 0\. Regex-ing mandatory
 
 Write a function called `filter_datum` that returns the log message obfuscated:
@@ -102,10 +85,6 @@ bob@dylan:~$
 -   Directory: `0x05-personal_data`
 -   File: `filtered_logger.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 1\. Log formatter mandatory
 
@@ -166,10 +145,6 @@ bob@dylan:~$
 -   Directory: `0x05-personal_data`
 -   File: `filtered_logger.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 2\. Create logger mandatory
 
@@ -215,10 +190,6 @@ bob@dylan:~$
 -   Directory: `0x05-personal_data`
 -   File: `filtered_logger.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 3\. Connect to secure database mandatory
 
@@ -288,10 +259,6 @@ bob@dylan:~$
 -   Directory: `0x05-personal_data`
 -   File: `filtered_logger.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 4\. Read and filter data mandatory
 
@@ -360,10 +327,6 @@ bob@dylan:~$
 -   Directory: `0x05-personal_data`
 -   File: `filtered_logger.py`
 
-Get a container
-
- Done?\
-Help
 
 #### 5\. Encrypting passwords mandatory
 
@@ -400,10 +363,6 @@ bob@dylan:~$
 -   Directory: `0x05-personal_data`
 -   File: `encrypt_password.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 6\. Check valid password mandatory
 
@@ -445,4 +404,3 @@ bob@dylan:~$
 -   Directory: `0x05-personal_data`
 -   File: `encrypt_password.py`
 
-Check your code?Get a container
