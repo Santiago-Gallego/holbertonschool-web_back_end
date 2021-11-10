@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" sesion auth views
+""" Module of Users views
 """
 from api.v1.views import app_views
 from flask import abort, jsonify, request
@@ -8,41 +8,45 @@ import os
 
 
 @app_views.route('/auth_session/login', methods=['POST'], strict_slashes=False)
-def login():
-    """ GET /api/v1/users
+def login() -> str:
+    """ POST /auth_session/login
     Return:
-      - list of all User objects JSON represented
+      - json string
     """
-    email = request.form.get("email")
-    password = request.form.get("password")
-    if not email:
+    u_email = request.form.get('email')
+    if not u_email:
         return jsonify({"error": "email missing"}), 400
-    if not password:
+
+    u_password = request.form.get('password')
+    if not u_password:
         return jsonify({"error": "password missing"}), 400
-    users = User.search({"email": email})
 
-    if not users:
-        return jsonify(error="no user found for this email"), 404
+    user = User.search({'email': u_email})
+    if not user:
+        return jsonify({"error": "no user found for this email"}), 404
 
-    for user in users:
-        if not user.is_valid_password(password):
-            return jsonify({"error": "wrong password"}), 401
-        else:
+    for u in user:
+        if u.is_valid_password(u_password):
             from api.v1.app import auth
-            sesion_id = auth.create_session(user.id)
-            sesion_name = os.getenv("SESSION_NAME")
-            user_dict = jsonify(user.to_json())
-            user_dict.set_cookie(sesion_name, sesion_id)
-            return user_dict
+            session_id = auth.create_session(u.id)
+            user_json = jsonify(u.to_json())
+            user_json.set_cookie(os.getenv('SESSION_NAME'), session_id)
+            return user_json
+        else:
+            return jsonify({"error": "wrong password"}), 401
 
 
-@app_views.route('/auth_session/logout',
-                 methods=['DELETE'],
+@app_views.route('/auth_session/logout', methods=['DELETE'],
                  strict_slashes=False)
 def logout():
-    '''self descriptive'''
-    destroy_session = auth.destroy_session(request)
+    """ DELETE /auth_session/logout
+    Return:
+        - Empty dictionary if succesful
+    """
+    from api.v1.app import auth
 
-    if destroy_session:
-        return jsonify({}), 200
-    abort(404)
+    deleted = auth.destroy_session(request)
+    if not deleted:
+        abort(404)
+
+    return jsonify({}), 200
