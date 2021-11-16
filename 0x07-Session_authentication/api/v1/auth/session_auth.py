@@ -22,17 +22,14 @@ class SessionAuth(Auth):
 
         session_id = str(uuid.uuid4())
         self.user_id_by_session_id[session_id] = user_id
-        
         return session_id
 
-
-    def user_id_for_session_id(self, session_id: str = None) -> str:  
+    def user_id_for_session_id(self, session_id: str = None) -> str:
         """returns a User ID based on a Session ID"""
         if not session_id or not isinstance(session_id, str):
             return None
 
         return self.user_id_by_session_id.get(session_id)
-
 
     def current_user(self, request=None):
         """Returns a User instance based on a cookie value."""
@@ -42,7 +39,6 @@ class SessionAuth(Auth):
 
         idd = self.user_id_for_session_id(session_id)
         return User.get(idd)
-
 
     def destroy_session(self, request=None):
         """deletes the user session / logout"""
