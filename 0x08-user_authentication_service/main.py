@@ -2,9 +2,8 @@
 """
 Main file
 """
-from user import User
+from auth import Auth
 
-print(User.__tablename__)
 
-for column in User.__table__.columns:
-    print("{}: {}".format(column, column.type))
+def xd:
+    pass

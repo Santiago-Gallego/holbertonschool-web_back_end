@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
-""" DB Class """
-
+"""DB module
+"""
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+
+from user import Base
+from user import User
+
 from sqlalchemy.exc import InvalidRequestError
 from sqlalchemy.orm.exc import NoResultFound
 
-from user import Base, User
-
 
 class DB:
-    """ DB class ORM with sqlalchemy """
+    """DB class
+    """
 
-    def __init__(self):
-        """ constructor method """
+    def __init__(self) -> None:
+        """Initialize a new DB instance
+        """
         self._engine = create_engine("sqlite:///a.db", echo=False)
         Base.metadata.drop_all(self._engine)
         Base.metadata.create_all(self._engine)
@@ -22,38 +26,45 @@ class DB:
 
     @property
     def _session(self):
-        """ session method """
+        """Memoized session object
+        """
         if self.__session is None:
             DBSession = sessionmaker(bind=self._engine)
             self.__session = DBSession()
         return self.__session
 
     def add_user(self, email: str, hashed_password: str) -> User:
-        """ self descriptive add_user
-        """
-        new_user = User(email=email, hashed_password=hashed_password)
-        self._session.add(new_user)
-        self._session.commit()
-        return new_user
+        """ Method, which has two required string arguments:
+        email and hashed_password, and returns a User object."""
+        user = User(email=email, hashed_password=hashed_password)
+        session = self._session
+        session.add(user)
+        session.commit()
+        return user
 
     def find_user_by(self, **kwargs) -> User:
-        ''' self descriptive '''
-        try:
-            record = self._session.query(User).filter_by(**kwargs).first()
-        except TypeError:
+        """ Method takes in arbitrary keyword arguments and returns
+        the first row found in the users table as filtered by
+        the method’s input arguments."""
+        data = User.__table__.columns.keys()
+        if not all(key in data for key in kwargs) or not kwargs:
             raise InvalidRequestError
-        if record is None:
+
+        session = self._session
+        user = session.query(User).filter_by(**kwargs).first()
+        if not user:
             raise NoResultFound
-        return record
+        return user
 
     def update_user(self, user_id: int, **kwargs) -> None:
-        '''self descriptive'''
-        user_record = self.find_user_by(id=user_id)
+        """ Method that takes as argument a required user_id integer
+        and arbitrary keyword arguments."""
+        session = self._session
+        user = self.find_user_by(id=user_id)
+        data = User.__table__.columns.keys()
+        if not all(key in data for key in kwargs) or not kwargs:
+            raise ValueError
 
-        for key, value in kwargs.items():
-            if hasattr(user_record, key):
-                setattr(user_record, key, value)
-            else:
-                raise ValueError
-
-        self._session.commit()
+        for k, v in kwargs.items():
+            setattr(user, k, v)
+        session.commit()
