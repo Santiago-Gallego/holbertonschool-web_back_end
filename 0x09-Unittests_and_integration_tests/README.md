@@ -84,9 +84,6 @@ Click to show/hide file contents
 Tasks
 -----
 
- Done?\
-Help
-
 #### 0\. Parameterize a unit test mandatory
 
 Familiarize yourself with the `utils.access_nested_map` function and understand its purpose. Play with it in the Python console to make sure you understand.
@@ -116,10 +113,6 @@ The body of the test method should not be longer than 2 lines.
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_utils.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 1\. Parameterize a unit test mandatory
 
@@ -139,10 +132,6 @@ Also make sure that the exception message is as expected.
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_utils.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 2\. Mock HTTP calls mandatory
 
@@ -168,10 +157,6 @@ Test that the output of `get_json` is equal to `test_payload`.
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_utils.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 3\. Parameterize and patch mandatory
 
@@ -201,10 +186,7 @@ Use `unittest.mock.patch` to mock `a_method`. Test that when calling `a_prop
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_utils.py`
 
-Check your code?Get a container
 
- Done?\
-Help
 
 #### 4\. Parameterize and patch as decorators mandatory
 
@@ -229,10 +211,6 @@ Of course, no external HTTP calls should be made.
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_client.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 5\. Mocking a property mandatory
 
@@ -250,10 +228,6 @@ Test that the result of `_public_repos_url` is the expected one based on the m
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_client.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 6\. More patching mandatory
 
@@ -273,10 +247,7 @@ Test that the mocked property and the mocked `get_json` was called once.
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_client.py`
 
-Check your code?Get a container
 
- Done?\
-Help
 
 #### 7\. Parameterize mandatory
 
@@ -298,10 +269,6 @@ You should also parameterize the expected returned value.
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_client.py`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 8\. Integration test: fixtures mandatory
 
@@ -328,10 +295,7 @@ Implement the `tearDownClass` class method to stop the patcher.
 -   Directory: `0x09-Unittests_and_integration_tests`
 -   File: `test_client.py`
 
-Check your code?Get a container
 
- Done?\
-Help
 
 #### 9\. Integration tests #advanced
 
