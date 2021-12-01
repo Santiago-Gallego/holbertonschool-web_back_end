@@ -1,20 +1,6 @@
 0x0C. MySQL advanced
 ====================
 
- Specializations - Web Stack programming -- Back-end
-
-* by Guillaume Plessis, Senior Cloud & System Engineer at WeWork and Guillaume, CTO at Holberton school*
-
- Ongoing project - started 12-02-2020, must end by 12-05-2020 (in about 6 hours) - you're done with 0% of tasks.
-
- Checker was released at 12-03-2020 12:00 PM
-
- QA review fully automated.
-
-*For this project, students are expected to look at this concept:*
-
--   *[Advanced SQL](https://intranet.hbtn.io/concepts/225)*
-
 Resources
 ---------
 
@@ -120,11 +106,6 @@ $
 
 * * * * *
 
-Tasks
------
-
- Done?\
-Help
 
 #### 0\. We are all unique! mandatory
 
@@ -170,10 +151,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `0-uniq_users.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 1\. In and not out mandatory
 
@@ -222,10 +199,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `1-country_users.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 2\. Best band ever! mandatory
 
@@ -265,10 +238,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `2-fans.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 3\. Old school band mandatory
 
@@ -305,10 +274,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `3-glam_rock.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 4\. Buy buy buy mandatory
 
@@ -385,10 +350,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `4-store.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 5\. Email validation to sent mandatory
 
@@ -466,10 +427,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `5-valid_email.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 6\. Add bonus mandatory
 
@@ -598,10 +555,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `6-bonus.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 7\. Average score mandatory
 
@@ -706,10 +659,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `7-average_score.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 8\. Optimize simple search mandatory
 
@@ -772,10 +721,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `8-index_my_names.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 9\. Optimize search and score mandatory
 
@@ -837,10 +782,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `9-index_name_score.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 10\. Safe divide mandatory
 
@@ -906,10 +847,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `10-div.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 11\. No table for a meeting mandatory
 
@@ -1021,10 +958,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `11-need_meeting.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 12\. Average weighted score #advanced
 
@@ -1135,10 +1068,6 @@ bob@dylan:~$
 -   Directory: `0x0C-MySQL_Advanced`
 -   File: `100-average_weighted_score.sql`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 13\. Average weighted score for all! #advanced
 
