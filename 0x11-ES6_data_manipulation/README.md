@@ -3,16 +3,6 @@
 
  Specializations - Web Stack programming -- Back-end
 
-* by Johann Kerbrat, Engineering Manager at Uber Works*
-
- Ongoing project - started 12-22-2020, must end by 12-24-2020 (in about 7 hours) - you're done with 0% of tasks.
-
- Checker was released at 12-23-2020 12:00 AM
-
- QA review fully automated.
-
- filter javascript map reduce set weak link
-
 ![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/6ab7bec4727cb5c91257.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201223T222427Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9b974889192734bbac93672e039ee34ae7b7c6a6b94421f91aa2f59da670d5ad)
 
 Resources
@@ -102,8 +92,6 @@ Don't forget to run `$ npm install` when you have the `package.json`
 Tasks
 -----
 
- Done?\
-Help
 
 #### 0\. Basic list of objects mandatory
 
@@ -140,10 +128,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `0-get_list_students.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 1\. More mapping mandatory
 
@@ -177,10 +161,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `1-get_list_student_ids.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 2\. Filter mandatory
 
@@ -215,10 +195,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `2-get_students_by_loc.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 3\. Reduce mandatory
 
@@ -251,10 +227,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `3-get_ids_sum.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 4\. Combine mandatory
 
@@ -315,10 +287,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `4-update_grade_by_city.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 5\. Typed Arrays mandatory
 
@@ -354,10 +322,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `5-typed_arrays.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 6\. Set data structure mandatory
 
@@ -384,10 +348,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `6-set.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 7\. More set data structure mandatory
 
@@ -418,10 +378,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `7-has_array_values.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 8\. Clean set mandatory
 
@@ -452,10 +408,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `8-clean_set.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 9\. Map data structure mandatory
 
@@ -497,10 +449,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `9-groceries_list.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 10\. More map data structure mandatory
 
@@ -547,10 +495,6 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `10-update_uniq_items.js`
 
-Check your code?Get a container
-
- Done?\
-Help
 
 #### 11\. Weak link data structure #advanced
 
@@ -605,6 +549,3 @@ bob@dylan:~$
 -   Directory: `0x11-ES6_data_manipulation`
 -   File: `100-weak.js`
 
-Check your code?Get a container
-
-Copyright © 2020 Holberton School. All rights reserved.
