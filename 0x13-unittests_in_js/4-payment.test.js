@@ -1,19 +1,21 @@
-const expect = require('chai').expect;
 const sinon = require('sinon');
+var { expect } = require('chai');
 
-const Utils = require('./utils.js');
-const sendPaymentRequestToApi = require('./3-payment.js');
+const sendPaymentRequestToApi = require('./4-payment');
+const Utils = require('./utils');
 
-describe('sendPaymentRequestToApi function', () => {
-  const consoleSpy = sinon.spy(console, 'log');
+describe('Stubs', function () {
+  it('has the same math', () => {
+    const stubUtils = sinon.stub(Utils, 'calculateNumber');
+    stubUtils.returns(10);
+    const spyConsole = sinon.spy(console, 'log');
 
-  it('validate the usage of the Utils function', () => {
-    const utilStub = sinon.stub(Utils, 'calculateNumber');
-    utilStub.withArgs('SUM', 100, 20).returns(10);
     sendPaymentRequestToApi(100, 20);
-    expect(consoleSpy.calledOnce).to.be.true;
-    expect(consoleSpy.calledWith('The total is: 10')).to.be.true;
-    utilStub.restore()
-    consoleSpy.restore();
+
+    expect(stubUtils.calledOnceWithExactly('SUM', 100, 20)).to.be.true;
+    expect(spyConsole.calledOnceWithExactly('The total is: 10')).to.be.true;
+
+    stubUtils.restore();
+    spyConsole.restore();
   });
 });

@@ -1,57 +1,82 @@
-const expect = require('chai').expect;
-const calculateNumber = require('./2-calcul_chai.js');
+var chai = require('chai');
+const calculateNumber = require('./2-calcul_chai');
 
+describe('calculateNumber', function () {
+  describe('SUM no Round', function () {
+    it('should return 5', function () {
+      chai.expect(calculateNumber('SUM', 1, 4)).to.equal(5);
+    });
+  });
 
-describe('calculateNumber type == SUM', () => {
-  it('checks the output', () => {
-    const answer = calculateNumber('SUM', 1.1, 2.5);
-    expect(answer).to.equal(4);
-    expect(calculateNumber('SUM', 0.0, 0)).to.equal(0);
+  describe('SUM first round', function () {
+    it('should return 6', function () {
+      chai.expect(calculateNumber('SUM', 2.4, 4)).to.equal(6);
+    });
   });
-  it('negative numbers', () => {
-    expect(calculateNumber('SUM', -1, 1), 'negative').to.equal(0);
-    expect(calculateNumber('SUM', -1.5, 0)).to.equal(-1);
-  });
-  it('checks arguments', () => {
-    expect(isNaN(calculateNumber('SUM', 2.2))).to.equal(true);
-    expect(isNaN(calculateNumber(2.2, 2.2))).to.equal(true);
-    expect(isNaN(calculateNumber(2.2))).to.equal(true);
-    expect(isNaN(calculateNumber())).to.equal(true);
-  });
-});
 
-describe('calculateNumber type == SUBSTRACT', () => {
-  it('checks the output', () => {
-    expect(calculateNumber('SUBSTRACT', 3.1, 2.5), 0).to.equal;
-    expect(calculateNumber('SUBSTRACT', 0.0, 5), -5).to.equal;
+  describe('SUM second round ', function () {
+    it('should return 6', function () {
+      chai.expect(calculateNumber('SUM', 4, 2.4)).to.equal(6);
+    });
   });
-  it('negative numbers', () => {
-    expect(calculateNumber('SUBSTRACT', -1, 1), -2).to.equal;
-    expect(calculateNumber('SUBSTRACT', -1.5, 0), -1).to.equal;
+
+  describe('SUM both round', function () {
+    it('should return 6', function () {
+      chai.expect(calculateNumber('SUM', 1.4, 4.5)).to.equal(6);
+    });
   });
-  it('checks arguments', () => {
-    expect(isNaN(calculateNumber('SUBSTRACT', 2.2)), true).to.equal;
-    expect(isNaN(calculateNumber(2.2, 2.2)), true).to.equal;
-    expect(isNaN(calculateNumber(2.2)), true).to.equal;
-    expect(isNaN(calculateNumber()), true).to.equal;
+
+  describe('SUBTRACT no round', function () {
+    it('should return 2', function () {
+      chai.expect(calculateNumber('SUBTRACT', 5, 3)).to.equal(2);
+    });
   });
-});
-describe('calculateNumber type == DIVIDE', () => {
-  it('check the output', () => {
-    expect(calculateNumber('DIVIDE', 2, 2.5), 0.6666666666666666).to.equal;
-    expect(calculateNumber('DIVIDE', 0.0, 2), 0).to.equal;
+
+  describe('SUBTRACT first round', function () {
+    it('should return -3', function () {
+      chai.expect(calculateNumber('SUBTRACT', 2, 4.5)).to.equal(-3);
+    });
   });
-  it('check negative numbers', () => {
-    expect(calculateNumber('DIVIDE', -1, 1), -1).to.equal;
+
+  describe('SUBTRACT second round', function () {
+    it('should return 3', function () {
+      chai.expect(calculateNumber('SUBTRACT', 4.5, 2)).to.equal(3);
+    });
   });
-  it('check second argument is 0', () => {
-    expect(calculateNumber('DIVIDE', 2.2, 0), 'Error').to.equal;
+
+  describe('SUBTRACT both round', function () {
+    it('should return -4', function () {
+      chai.expect(calculateNumber('SUBTRACT', 1.4, 4.5)).to.equal(-4);
+    });
   });
-  it('check arguments', () => {
-    expect(isNaN(calculateNumber('DIVIDE', 2.2)), true).to.equal;
-    expect(isNaN(calculateNumber('DIVIDE')), true).to.equal;
-    expect(isNaN(calculateNumber(2.2, 2.2)), true).to.equal;
-    expect(isNaN(calculateNumber(2.2)), true).to.equal;
-    expect(isNaN(calculateNumber()), true).to.equal;
+
+  describe('DIVIDE no round', function () {
+    it('should return 2', function () {
+      chai.expect(calculateNumber('DIVIDE', 8, 4)).to.equal(2);
+    });
+  });
+
+  describe('DIVIDE first round', function () {
+    it('should return 5', function () {
+      chai.expect(calculateNumber('DIVIDE', 9.5, 2)).to.equal(5);
+    });
+  });
+
+  describe('DIVIDE second round', function () {
+    it('should return 0.2', function () {
+      chai.expect(calculateNumber('DIVIDE', 2, 9.5)).to.equal(0.2);
+    });
+  });
+
+  describe('DIVIDE both round', function () {
+    it('should return 0.2', function () {
+      chai.expect(calculateNumber('DIVIDE', 1.4, 4.5)).to.equal(0.2);
+    });
+  });
+
+  describe('DIVIDE Error', function () {
+    it('should return Error', function () {
+      chai.expect(calculateNumber('DIVIDE', 1.4, 0)).to.equal('Error');
+    });
   });
 });
