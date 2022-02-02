@@ -41,15 +41,8 @@ Some of the Backend programming languages are Python, PHP, Ruby, C # and Java, a
 
 ## :sagittarius: Author
 
-> :man: Carlos Andres Garcia Morales
+> :man: Santiago Andres Gallego Castillo
 
-> :e-mail: [E-mail](agzsoftsi@gmail.com)
+> :e-mail: [E-mail](saantiagoprograma01@gmail.com)
 
-> :octocat: [Github](https://github.com/agzsoftsi)
-
-> :bird: [Twiiter](https://twitter.com/karlgarmor)
-
-> :blue_book: [Linkedin](https://twitter.com/karlgarmor)
-
-> :globe_with_meridians: [WebPage](https://www.agzsoftsi.tech/)
-
+> :octocat: [Github](https://github.com/Santiago-Gallego)
