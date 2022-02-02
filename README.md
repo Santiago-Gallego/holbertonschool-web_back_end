@@ -46,4 +46,4 @@ Some of the Backend programming languages are Python, C # and JavaScript.
 
 > :octocat: [Github](https://github.com/Santiago-Gallego)
 
-> :badges: [Linkedin](https://www.linkedin.com/in/santiago--gallego/)
+> :memo: [Linkedin](https://www.linkedin.com/in/santiago--gallego/)
